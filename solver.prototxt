@@ -5,7 +5,7 @@
 train_net: "residual-20_train.prototxt"
 test_net: "residual-20_test.prototxt"
 # test_iter specifies how many forward passes the test should carry out.
-# In the case of CIFAR-10, we have test batch size 250 and 200 test iterations,
+# In the case of CIFAR-10, we have test batch size 100 and 100 test iterations,
 # covering the full 10,000 testing images.
 # test every 5 epoch
 test_iter: 200
