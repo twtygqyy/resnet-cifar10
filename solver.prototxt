@@ -1,0 +1,27 @@
+# 50000 samples for training, batch size 250, 200 iterations for 1 epoch
+# reduce learning rate every 100 epochs (20000 iters) by factor of 10
+
+# The train/test net protocol buffer definition
+train_net: "residual-20_train.prototxt"
+test_net: "residual-20_test.prototxt"
+# test_iter specifies how many forward passes the test should carry out.
+# In the case of CIFAR-10, we have test batch size 250 and 200 test iterations,
+# covering the full 10,000 testing images.
+# test every 5 epoch
+test_iter: 200
+test_interval: 1000
+
+base_lr: 0.1
+lr_policy: "step"
+stepsize: 20000
+
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+
+display: 100
+max_iter: 70000
+snapshot: 10000
+snapshot_prefix: "snapshot/"
+solver_mode: GPU
+type: "Nesterov"
