@@ -31,5 +31,5 @@ Resnet-20: best model achieved 0.927 accuracy on test datasets for single round 
 
 Resnet-32: best model achieved 0.9364 accuracy on test datasets for single round and single crop
 
-Resnet-56:
+Resnet-56: best model achieved 0.9418 accuracy on test datasets for single round and single crop
 
