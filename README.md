@@ -16,7 +16,7 @@ reduce learning rate after 32000 iters by factor of 10
 then another factor of 10 after anohter 16000 iters
 
 ## Notes
-### Data augmentation applied: 
+### Data augmentation applied (please find the data augmentation fork in https://github.com/twtygqyy/caffe-augmentation): 
 
 max_color_shift = 5
 
