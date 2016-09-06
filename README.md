@@ -27,9 +27,13 @@ max_brightness_shift = 5
 zero-padding with 2 pixels for each side and crop with 32x32
 
 ## Result
-Resnet-20: best model achieved 0.927 accuracy on test datasets for single round and single crop
 
-Resnet-32: best model achieved 0.9364 accuracy on test datasets for single round and single crop
-
-Resnet-56: best model achieved 0.9418 accuracy on test datasets for single round and single crop
-
+### Resnet-20: 
+best model achieved 0.927 accuracy on test datasets for single round and single crop
+----------------------------------------------------------------------------------------------------
+### Resnet-32: 
+best model achieved 0.9364 accuracy on test datasets for single round and single crop
+----------------------------------------------------------------------------------------------------
+### Resnet-56: 
+best model achieved 0.9418 accuracy on test datasets for single round and single crop
+0.944 accuracy on test datasets with LSUV initializer (https://github.com/ducha-aiki/LSUVinit/blob/master/tools/extra/lsuv_init.py/)
