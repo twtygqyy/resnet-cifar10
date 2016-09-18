@@ -1,0 +1,29 @@
+# reduce learning rate after 32000 iters by factor 0f 10
+# then another factor of 10 after anohter 16000 iters
+
+# The train/test net protocol buffer definition
+train_net: "wrn_28_10_train.prototxt"
+test_net: "wrn_28_10_test.prototxt"
+# test_iter specifies how many forward passes the test should carry out.
+# In the case of CIFAR-10, we have test batch size 100 and 100 test iterations,
+# covering the full 10,000 testing images.
+test_iter: 100
+test_interval: 1000
+test_initialization: true
+
+base_lr: 0.1
+lr_policy: "multistep"
+stepvalue: 32000
+stepvalue: 48000
+iter_size: 2
+
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+
+display: 100
+max_iter: 64000
+snapshot: 10000
+snapshot_prefix: "snapshot/"
+solver_mode: GPU
+type: "Nesterov"

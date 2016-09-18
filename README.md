@@ -38,3 +38,6 @@ Resnet-32: best model achieved 0.9364 accuracy on test datasets for single round
 Resnet-56: best model achieved 0.9418 accuracy on test datasets for single round and single crop
 
 Resnet-56: 0.944 accuracy on test datasets with LSUV initializer (https://github.com/ducha-aiki/LSUVinit/blob/master/tools/extra/lsuv_init.py/)
+
+
+WRN-28-10 ["Wide Residual Networks" (http://arxiv.org/abs/1605.07146)]: best model achieved 0.958 accuracy on test datasets for single round and single crop
