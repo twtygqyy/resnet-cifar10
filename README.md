@@ -25,6 +25,7 @@ contrast_variation = 0.8 ~ 1.2
 max_brightness_shift = 5 
 
 zero-padding with 2 pixels for each side and crop with 32x32
+Please download the training images with zero-padding here [Google Drive](https://drive.google.com/file/d/0B5i4atpKg9EcZWRCOVFEUHJkSWM/view?usp=sharing)
 
 ## Result
 
