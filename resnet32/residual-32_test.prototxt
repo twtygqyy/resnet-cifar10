@@ -60,7 +60,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -124,7 +124,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -188,7 +188,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -257,7 +257,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -321,7 +321,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -390,7 +390,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -454,7 +454,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -523,7 +523,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -587,7 +587,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -656,7 +656,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -720,7 +720,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -789,7 +789,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -853,7 +853,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -912,7 +912,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -981,7 +981,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -1045,7 +1045,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -1114,7 +1114,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -1178,7 +1178,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -1247,7 +1247,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -1311,7 +1311,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -1380,7 +1380,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -1444,7 +1444,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -1513,7 +1513,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -1577,7 +1577,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -1635,7 +1635,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -1704,7 +1704,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -1768,7 +1768,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -1837,7 +1837,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -1901,7 +1901,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -1970,7 +1970,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -2034,7 +2034,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
@@ -2103,7 +2103,7 @@ layer {
     decay_mult: 0.0
   }
   batch_norm_param {
-    use_global_stats: false
+    use_global_stats: true
     moving_average_fraction: 0.95
   }
 }
